@@ -1,6 +1,6 @@
 # Python file for generator shapes
 
-
+from interpretMood import *
 # class MakeShape:
 # 	def __init__(self, array, arrayo):
 # 		self.array = [];
@@ -34,3 +34,12 @@ def makeDisplay(rhythmicIntensities, color, shape=None):
 			animationInputs[i] = (0, 0, 8, 8, color)
 	
 	return animationInputs;
+
+#def determineMood(rhythmicIntensities=None, key):
+	
+# def display(shape=None, deltaT, animationInputs):
+# 	if shape is None:
+# 		shape = square
+# 	for (i = 0; i < len(animationInputs); i++):
+# 		if shape is square:
+# 			fill
